@@ -6,7 +6,7 @@
 .container {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  width: 90%;
+  width: 95%;
 }
 nav {
   display:flex;
@@ -20,5 +20,13 @@ img {
 a{
   text-decoration: none;
 }
+body{
+  font:400 2rem 'DM Sans', 'sans-serif';
 
+}
+
+h1{
+  font:400 1rem 'Poppins', 'sans-serif';
+
+}
 
