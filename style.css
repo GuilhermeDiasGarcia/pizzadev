@@ -11,6 +11,8 @@
 nav {
   display:flex;
   justify-content:space-between;
+  height: 4.5rem;
+  align-items: center;
 }
 img {
 
@@ -21,12 +23,47 @@ a{
   text-decoration: none;
 }
 body{
-  font:400 2rem 'DM Sans', 'sans-serif';
-
+  font:400 1rem 'DM Sans', 'sans-serif';
+background-color: var(--body-color);
+color: var(--text-color);
 }
-
+.logo h1{
+  font: 700 1.5rem 'Poppins', 'sans-serif';
+  color:var(--title-color);
+}
+.logo span{
+  color: var(--base-color);
+}
 h1{
-  font:400 1rem 'Poppins', 'sans-serif';
-
+  font: 700 2rem 'Poppins', 'sans-serif';
+  color: var(--title-color);
+}
+section {
+  padding: 1.5;
 }
 
+.grid { 
+  display: grid;
+  gap: 2rem;
+}
+.home .texto {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+.home .imagem {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+:root {
+   --hue: 159;
+   /* HSL color mode */
+  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: rgb(78, 78, 78);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: rgb(236, 233, 167);
+}
