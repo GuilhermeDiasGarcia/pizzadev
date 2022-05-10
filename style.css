@@ -35,7 +35,7 @@ color: var(--text-color);
   color: var(--base-color);
 }
 h1{
-  font: 700 2rem 'Poppins', 'sans-serif';
+  font: 700 3rem 'Poppins', 'sans-serif';
   color: var(--title-color);
 }
 section {
@@ -50,10 +50,34 @@ section {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
+
 }
+
+.home .texto h1{
+  margin-bottom: 1rem;
+}
+.home .texto p{
+  margin-bottom: 1.5rem;
+}
+
 .home .imagem {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+
+}
+.button{
+  background: var(--base-color);
+  color: var(--text-color-light);
+  display: inline-flex;
+  height: 3.5rem;
+  align-items: center;
+  padding: 0 2rem;
+  font: 500 1rem, 'DM Sans', 'sans-serif';
+  margin-bottom: 2rem;
+}
+.button:hover{
+  background-color: var(--base-color-alt);
+
 }
 
 :root {
@@ -66,4 +90,26 @@ section {
   --text-color: rgb(78, 78, 78);
   --text-color-light: hsl(0 0% 98%);
   --body-color: rgb(236, 233, 167);
+}
+.grid { 
+  display: grid;
+  gap: 2rem;
+}
+.dev1 .texto1 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+
+}
+
+.dev1 .texto1 h1{
+  margin-bottom: 1rem;
+}
+.dev1 .texto1 p{
+  margin-bottom: 1.5rem;
+}
+
+.dev1 .imagem1 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
