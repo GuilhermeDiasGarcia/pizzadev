@@ -72,7 +72,7 @@ section {
   height: 3.5rem;
   align-items: center;
   padding: 0 2rem;
-  font: 500 1rem, 'DM Sans', 'sans-serif';
+  font: 500 1rem, 'DM Sans', 'sans-serif', 'Dancing Script';
   margin-bottom: 2rem;
 }
 .button:hover{
@@ -95,21 +95,28 @@ section {
   display: grid;
   gap: 2rem;
 }
-.dev1 .texto1 {
+.dev1 .texto {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
 
 }
 
-.dev1 .texto1 h1{
+.dev1 .texto h1{
   margin-bottom: 1rem;
 }
-.dev1 .texto1 p{
+.dev1 .texto p{
   margin-bottom: 1.5rem;
 }
 
 .dev1 .imagem1 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+.dev1 .texto h1 {
+  font: 400 3rem 'Dancing Script';
+  color: var(--title-color);
+}
+.nome span{
+  color: var(--base-color);
 }
