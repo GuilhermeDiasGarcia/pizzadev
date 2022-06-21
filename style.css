@@ -77,6 +77,44 @@ section {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+
+#about .texto {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+#about .texto h1 {
+  margin-bottom: 1rem;
+}
+#about .texto p {
+  margin-bottom: 1.5rem;
+}
+
+#about .imagem {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+
+#services .texto {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+#services .texto h1 {
+  margin-bottom: 1rem;
+}
+#services .texto p {
+  margin-bottom: 1.5rem;
+}
+
+#services .imagem {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .button {
   background: var(--base-color);
   color: var(--text-color-light);
@@ -202,3 +240,37 @@ nav.show div.icon-close {
   cursor: pointer; 
     
  }
+ #about .texto {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+#about .texto h1 {
+  margin-bottom: 1rem;
+}
+#about .texto p {
+  margin-bottom: 1.5rem;
+}
+
+#about .imagem {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.justify {
+  text-align:justify;
+}
+.card {
+  padding: 3.625rem 2rem;
+  box-shadow: var(--base-color);
+  border-bottom : .25rem solid var(--base-color);
+  border-radius : .25rem .25rem 0 0;
+  text-align: center
+
+}
+.card i{
+  display: block;
+  margin-bottom:1,5rem;
+  font-size: 5rem;
+  color: var(--base-color);
+}
